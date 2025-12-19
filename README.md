@@ -4,12 +4,11 @@
 
 <img src="https://komarev.com/ghpvc/?username=6plusjp&label=Profile%20views&color=0e75b6&style=flat" alt="6plusjp" />
 
-- 👨‍💻 All of my projects are available at [6plus.tech](https://6plus.tech)
-- 📝 I regularly write articles on [my blog](https://6plus.tech/blog)
+- 👨‍💻 All of my projects are available at [6plus.vercel.app](https://6plus.vercel.app)
 
-### Languages and Tools:
+### Languages:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" width="40"/><img alt="Vue.js" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss" width="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="tailwindcss" width="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="tailwindcss" width="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" width="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python" width="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust" width="40"/>
 
 ### Support:
 
