@@ -16,7 +16,7 @@ Remix + Vite + TypeScript + Tailwind CSS + MDX で構築した SSR デプロイ�
 - **コードベース**: TS/TSX/CSS 約 8,200 行、372 commits（2022-04 より継続）
 
 **技術的特色**  
-Remix のローダー/アクションを活用したサーバーサイドレンダリング、MDX ベースのコンテンツ管理、動的 OG 画像生成、多言語対応（i18n）を自前で実装。
+Remix の loader / action を活用したサーバーサイドレンダリング、MDX ベースのファイルベースコンテンツ管理、OG メタタグの一元管理、履歴書の `$lang` パラメータによる言語切替と PDF 生成。Vercel のビルド出力と ESM/CJS 混在の実務的な解決。
 
 ---
 
@@ -29,19 +29,7 @@ Remix のローダー/アクションを活用したサーバーサイドレン�
 - **ライセンス**: MIT、README 227 行と設計ドキュメント完備
 
 **技術的特色**  
-非同期ランタイム、ステートマシンによる接続状態管理、設定の型安全な永続化、クロスプラットフォーム対応（Linux/macOS）を Rust の型システムで担保。
-
----
-
-### [vimora](https://github.com/6plusjp/vimora) — Firefox 向け Vim 風ブラウザ拡張（Manifest V3）
-Vim 風モード（normal / insert / hint / visual / omni / find 等）を提供する Firefox 拡張。
-
-- **アーキテクチャ**: Clean Architecture による層分離（core は副作用なし・純粋関数）
-- **テスト**: Playwright E2E 19 本 + Vitest ユニット/統合 36 ファイル
-- **フレームワーク**: WXT + TypeScript
-
-**技術的特色**  
-Manifest V3 の制約下で Service Worker 型バックグラウンドスクリプトと Content Script 間のメッセージングを型安全に実装、キーマッピングエンジンをコアロジックとして切り出しテスタビリティを確保。
+`ratatui` / `crossterm` による TUI レンダリング、`thiserror` による型安全なエラーハンドリング、`serde` + `toml` による設定の永続化。接続状態をステートマシンとして管理し、CLI との非同期なやり取りをイベント駆動で処理。
 
 ---
 
@@ -53,7 +41,7 @@ Manifest V3 の制約下で Service Worker 型バックグラウンドスクリ�
 | **Frontend** | React, Remix, Next.js, Tailwind CSS, MDX |
 | **Testing** | Playwright, Vitest |
 | **Browser Extension** | WXT (Firefox MV3) |
-| **CLI / TUI** | Rust (ratatui, clap, tokio) |
+| **CLI / TUI** | Rust (ratatui, crossterm, clap, serde) |
 | **Infrastructure** | Vercel, GitHub Actions |
 
 ---
