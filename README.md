@@ -1,6 +1,6 @@
 # Shoma Yamamoto (@6plusjp)
 
-**TypeScript / Rust / React / Remix を用いたフルスタック開発・ブラウザ拡張・CLI ツールの自作実績あり**  
+**TypeScript / Rust を用いた Web アプリケーション開発・CLI ツールの自作プロジェクト**<br>
 稼働中ポートフォリオ: https://6plus.vercel.app
 
 ---
@@ -24,8 +24,9 @@ Remix の loader / action を活用したサーバーサイドレンダリング
 `protonvpn-cli` をラップし、国・都市の階層ブラウズ・ファジー検索・テーマ切替・接続セッション管理を提供する TUI アプリケーション。
 
 - **アーキテクチャ**: `vpn` / `ui` / `state` / `config` の 4 モジュールに明確分離
-- **品質保証**: GitHub Actions CI、`clippy.toml` / `rustfmt.toml` による静的解析、統合テスト 7 本
-- **ドキュメント運用**: 解決済み Issue 112 本を `docs/issue/` に記録（根本原因と解決策を体系化）、`docs/policy/` にコーディング規約 5 種
+- **品質保証**: GitHub Actions による自動テスト、`clippy.toml` / `rustfmt.toml` による静的解析・フォーマット規約、統合テスト 5 本
+- **ドキュメント運用**: 解決済み Issue の記録 107 件を `docs/issue/` に蓄積（根本原因と解決策を体系化）、`docs/policy/` にコーディング規約 6 種
+- **開発期間**: 2026-03 〜 2026-06 の約 3 か月間、529 commits
 - **ライセンス**: MIT、README 227 行と設計ドキュメント完備
 
 **技術的特色**  
@@ -40,7 +41,6 @@ Remix の loader / action を活用したサーバーサイドレンダリング
 | **Languages** | TypeScript, Rust, Python, JavaScript |
 | **Frontend** | React, Remix, Next.js, Tailwind CSS, MDX |
 | **Testing** | Playwright, Vitest |
-| **Browser Extension** | WXT (Firefox MV3) |
 | **CLI / TUI** | Rust (ratatui, crossterm, clap, serde) |
 | **Infrastructure** | Vercel, GitHub Actions |
 
@@ -60,8 +60,3 @@ Remix の loader / action を活用したサーバーサイドレンダリング
 
 - GitHub: [@6plusjp](https://github.com/6plusjp)
 - Portfolio: [6plus.vercel.app](https://6plus.vercel.app)
-- Email: （必要に応じて記載）
-
----
-
-> すべて個人制作・独学による成果物です。実務経験としての主張は含みません。
