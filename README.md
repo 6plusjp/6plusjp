@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Shoma Yamamoto
 
-Frontend developer from Japan, working mostly in TypeScript and Rust.
+Web developer from Japan, working mostly in TypeScript and Rust.
 
 <img src="https://komarev.com/ghpvc/?username=6plusjp&label=Profile%20views&color=0e75b6&style=flat" alt="6plusjp" />
 
@@ -15,7 +15,7 @@ Frontend developer from Japan, working mostly in TypeScript and Rust.
 
 ### Tools I reach for
 
-TypeScript · Rust · React · Remix · Next.js · Tailwind CSS · Playwright · Vitest · Neovim · Fish · Arch Linux
+TypeScript · Rust · React · Remix · Tailwind CSS · Playwright · Vitest · Neovim · Fish · Arch Linux
 
 ### Elsewhere
 
